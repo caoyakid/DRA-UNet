@@ -6,6 +6,8 @@ In recent years, deep learning in computer vision has demonstrated the potential
 For the sake of objectively analyzing the results of tumor segmentation, the six error metrics of JSI, DSC, ACC, TPR, TNR, and Precision were used to evaluate the goodness of the model. The DRA-UNet has the highest JSI of 78.10%, DSC of 85.79%, ACC of 97.81% and Precision of 89.72%, while TPR of 89.47% and TNR of 98.79% are the second best. Thus, the proposed method really can be improved based on existing methods and provide appropriate detection of tumors and lesions at early stages of breast cancer.
 In summary, the proposed method has the following advantages. First, the model does not require any manual adjustment, which saves valuable healthcare manpower and time; second, it has excellent pixel-level segmenting ability even with a small number of parameters and sparse training data; third, it can maintain a stable level in ultrasound images with high difficulty, such as very tiny lesions and severe acoustic shadowing.
 
+---
+
 ## How to use
 * main_code.py -> for training model
 * figure.py -> for predicting the segmentation image and performance evaluation
@@ -46,7 +48,11 @@ if you need the dataset, please contact with me: a0956525116@gmail.com
     y = y.reshape(y.shape[0], y.shape[1], y.shape[2], 1)
 ```
 
+---
+
 ## Model & Results
+**Our proposed model 
 ![](https://i.imgur.com/QUd0F8T.png)
 
+**Example about confusion matrix
 ![](https://i.imgur.com/sAlZu98.png)
