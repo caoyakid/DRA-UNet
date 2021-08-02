@@ -7,17 +7,17 @@ For the sake of objectively analyzing the results of tumor segmentation, the six
 In summary, the proposed method has the following advantages. First, the model does not require any manual adjustment, which saves valuable healthcare manpower and time; second, it has excellent pixel-level segmenting ability even with a small number of parameters and sparse training data; third, it can maintain a stable level in ultrasound images with high difficulty, such as very tiny lesions and severe acoustic shadowing.
 
 ## How to use
-* main_code.py -> for training model
-* figure.py -> for predicting the segmentation image and performance evaluation
-* printmodel.py -> for plotting the model to help realizing the whole structure
-* data_augment.py -> for data augmentation using tensorflow(keras) ImageDataGenerator
-* keras_unet -> thera are some tools, metrics, losses
- ** models -> including DRA-UNet which we proposed and the others
- ** utils -> data augment, color mask, plot figure, save images, data type transformation...
- ** metrics -> JSI(IoU), DSC(F1-score), Accuracy, Precision, Sensitivity, Specificity...
- ** losses 
+1. main_code.py -> for training model
+2. figure.py -> for predicting the segmentation image and performance evaluation
+3. printmodel.py -> for plotting the model to help realizing the whole structure
+4. data_augment.py -> for data augmentation using tensorflow(keras) ImageDataGenerator
+5. keras_unet -> thera are some tools, metrics, losses
+ * models -> including DRA-UNet which we proposed and the others
+ * utils -> data augment, color mask, plot figure, save images, data type transformation...
+ * metrics -> JSI(IoU), DSC(F1-score), Accuracy, Precision, Sensitivity, Specificity...
+ * losses 
 
-### preprocessing(load dataset) 
+### * Preprocessing(load dataset) 
 if you need the dataset, please contact with me: a0956525116@gmail.com
 ```py
  ### Load Data ###
@@ -44,6 +44,6 @@ if you need the dataset, please contact with me: a0956525116@gmail.com
 ```
 
 ## Model & Results
-![GITHUB](https://imgus.cc/RoOL)
+![GITHUB](https://imgus.cc/RoOL "DRA-UNet" )
 
-![GITHUB](https://imgus.cc/GEaN)
+![GITHUB](https://imgus.cc/GEaN "Confusion matrix" )
