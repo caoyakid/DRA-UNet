@@ -15,10 +15,10 @@ For the sake of objectively analyzing the results of tumor segmentation, the six
 * printmodel.py -> for plotting the model to help realizing the whole structure
 * data_augment.py -> for data augmentation using tensorflow(keras) ImageDataGenerator
 * keras_unet -> thera are some tools, metrics, losses
- - models -> including DRA-UNet which we proposed and the others
- - utils -> data augment, color mask, plot figure, save images, data type transformation...
- - metrics -> JSI(IoU), DSC(F1-score), Accuracy, Precision, Sensitivity, Specificity...
- - losses
+    - models -> including DRA-UNet which we proposed and the others
+    - utils -> data augment, color mask, plot figure, save images, data type transformation...
+    - metrics -> JSI(IoU), DSC(F1-score), Accuracy, Precision, Sensitivity, Specificity...
+    - losses
 
 
 ---
