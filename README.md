@@ -1,5 +1,7 @@
 # DRA-UNet
 
+![](https://i.imgur.com/eHxcn39.png)
+
 ## Abstract
 According to statistics in Taiwan, **breast cancer is the third-commonest reason which causes death**. This fact really pose a significant threat to women’s health. From 2009 to 2019, with the increment of death rate, medical ultrasound imaging has been widely employed to segment breast lumps because its **safety, painless characteristics, noninvasive diagnosis and non-ionized radiation**. Furthermore, compared with other clinical medical imaging such as CT and MRI, ultrasound is relatively **cheaper, portable and general-used**. Nevertheless, it requires the subjective judgement from radiologists with relevant experience and the annotation is **laborious and time-consuming, resulting in scarcity of data** and bringing more challenges for implementing deep learning technologies on analyzing ultrasound images.   
 
