@@ -61,3 +61,6 @@ if you need the dataset, please contact with me: a0956525116@gmail.com
 **Example about confusion matrix**
 
 ![](https://i.imgur.com/sAlZu98.png)
+
+**Results**
+![](https://i.imgur.com/Is5Efsu.png)
